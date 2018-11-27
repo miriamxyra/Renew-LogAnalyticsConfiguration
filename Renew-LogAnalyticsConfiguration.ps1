@@ -1,30 +1,29 @@
 <#
-	.SYNOPSIS
-		A brief description of the Renew-LogAnalyticsConfiguration function.
+SYNOPSIS
+	A brief description of the Renew-LogAnalyticsConfiguration function.
 	
-	.DESCRIPTION
-		A detailed description of the Renew-LogAnalyticsConfiguration function.
+DESCRIPTION
+	A detailed description of the Renew-LogAnalyticsConfiguration function.
 	
-	.PARAMETER NewWorkspaceId
+PARAMETER NewWorkspaceId
         Enter the Workspace Id of the new workspace.
         
-    .PARAMETER NewWorkspaceKey
+.PARAMETER NewWorkspaceKey
         Enter the Workspace Key of the new workspace.
         
-    .PARAMETER OldWorkspaceId
+.PARAMETER OldWorkspaceId
         Enter the the OldWorkspaceId of the Workspace you want to delete.
 	
-	.PARAMETER Computer
-		If this parameter is left empty, the script will be run on the local computer. Accepts a String or a CSV. Computername must be resolved by DNS.
+.PARAMETER Computer
+	If this parameter is left empty, the script will be run on the local computer. Accepts a String or a CSV. Computername must be resolved by DNS.
 	
-	.EXAMPLE
-		PS C:\> Get-JeaConfiguration -RootFolder 'value1' -Database 'value2'
+.EXAMPLE
+	PS C:\> Renew-LogAnalyticsConfiguration -OldWorkspaceId 'value1' -NewWorkspaceId 'value2' -NewWorkspaceKey 'value3' -Computer "pc1, pc2, pc3"
 		
-		A description...
+	A description...
 	
-	.NOTES
-		Additional information about the function.
-		Logging can be enabled under <<Administrative Templates -> Windows Components -> Windows PowerShell>>
+.NOTES
+	Additional information about the function.
 #>
 
 param (
