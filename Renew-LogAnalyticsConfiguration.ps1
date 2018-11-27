@@ -19,7 +19,7 @@
         Enter the Workspace Key of the new workspace.
         
     .PARAMETER OldWorkspaceId
-        Enter the the OldWorkspaceId of the Workspace you want to delete. If left empty, all existing Workspaces will be deleted.
+        Enter the the OldWorkspaceId of the Workspace you want to delete.
 	
 	.PARAMETER Computer
 		If this parameter is left empty, the script will be run on the local computer. Accepts a String or a CSV. Computername must be resolved by DNS.
@@ -42,6 +42,7 @@ param (
     [Parameter(Mandatory=$true)]
     [string]$NewWorkspaceKey,
 
+    [Parameter(Mandatory=$true)]
     [string]$OldWorkspaceId,
 
     [string]$Computer,
