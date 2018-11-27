@@ -1,10 +1,3 @@
-﻿############################################################################################
-# Script to renew the LogAnalytics Workplace on clients automatically                      #
-# @author: Miriam Wiesner, miriam.wiesner@microsoft.com                                    #
-#                                                                                          #
-# 2018-11-27                                                                               #
-############################################################################################
-
 <#
 	.SYNOPSIS
 		A brief description of the Renew-LogAnalyticsConfiguration function.
