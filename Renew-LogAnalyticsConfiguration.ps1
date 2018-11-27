@@ -1,11 +1,11 @@
 <#
-SYNOPSIS
+.SYNOPSIS
 	A brief description of the Renew-LogAnalyticsConfiguration function.
 	
-DESCRIPTION
+.DESCRIPTION
 	A detailed description of the Renew-LogAnalyticsConfiguration function.
 	
-PARAMETER NewWorkspaceId
+.PARAMETER NewWorkspaceId
         Enter the Workspace Id of the new workspace.
         
 .PARAMETER NewWorkspaceKey
