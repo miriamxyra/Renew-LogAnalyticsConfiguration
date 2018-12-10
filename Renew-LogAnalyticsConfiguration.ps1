@@ -20,8 +20,6 @@
 .EXAMPLE
 	PS C:\> Renew-LogAnalyticsConfiguration -OldWorkspaceId 'value1' -NewWorkspaceId 'value2' -NewWorkspaceKey 'value3' -Computer "pc1, pc2, pc3"
 		
-	A description...
-	
 .NOTES
 	Additional information about the function.
 #>
